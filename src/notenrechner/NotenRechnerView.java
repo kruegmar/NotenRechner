@@ -4,6 +4,9 @@
 
 package notenrechner;
 
+import java.text.ParseException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.jdesktop.application.Action;
 import org.jdesktop.application.ResourceMap;
 import org.jdesktop.application.SingleFrameApplication;
@@ -11,7 +14,7 @@ import org.jdesktop.application.FrameView;
 import org.jdesktop.application.TaskMonitor;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.math.*;
+import java.text.DecimalFormat;
 import javax.swing.Timer;
 import javax.swing.Icon;
 import javax.swing.JDialog;
@@ -1458,8 +1461,17 @@ public class NotenRechnerView extends FrameView {
     }//GEN-LAST:event_computeMeanOfBA
 
     private String roundValue(float input){
-        BigDecimal bd = new BigDecimal(input);
-        return bd.round(new MathContext(3)).toString();
+        String value = "";
+
+        // Normale Rundung
+        //BigDecimal bd = new BigDecimal(input);
+        //return bd.round(new MathContext(3)).toString();
+
+        //Abschneiden der Kommastellen
+        value = Float.toString(((float)((int)(input*10)))/10);
+
+        return value;
+        
     }
 
     private String computeEndMark(){
