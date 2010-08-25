@@ -102,8 +102,8 @@ public class NotenRechnerView extends FrameView {
   private void initComponents() {
 
     mainPanel = new javax.swing.JPanel();
-    jScrollPane1 = new javax.swing.JScrollPane();
-    jPanel1 = new javax.swing.JPanel();
+    MainjScrollPane = new javax.swing.JScrollPane();
+    MainOfJScrollPanel = new javax.swing.JPanel();
     jPanel_Mat = new javax.swing.JPanel();
     jLabel_Mat1 = new javax.swing.JLabel();
     jLabel_Mat2 = new javax.swing.JLabel();
@@ -220,9 +220,9 @@ public class NotenRechnerView extends FrameView {
 
     mainPanel.setName("mainPanel"); // NOI18N
 
-    jScrollPane1.setName("jScrollPane1"); // NOI18N
+    MainjScrollPane.setName("MainjScrollPane"); // NOI18N
 
-    jPanel1.setName("jPanel1"); // NOI18N
+    MainOfJScrollPanel.setName("MainOfJScrollPanel"); // NOI18N
 
     org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(notenrechner.NotenRechnerApp.class).getContext().getResourceMap(NotenRechnerView.class);
     jPanel_Mat.setBorder(javax.swing.BorderFactory.createTitledBorder(resourceMap.getString("jPanel_Mat.border.title"))); // NOI18N
@@ -1269,68 +1269,68 @@ public class NotenRechnerView extends FrameView {
         .addContainerGap(51, Short.MAX_VALUE))
     );
 
-    org.jdesktop.layout.GroupLayout jPanel1Layout = new org.jdesktop.layout.GroupLayout(jPanel1);
-    jPanel1.setLayout(jPanel1Layout);
-    jPanel1Layout.setHorizontalGroup(
-      jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-      .add(jPanel1Layout.createSequentialGroup()
+    org.jdesktop.layout.GroupLayout MainOfJScrollPanelLayout = new org.jdesktop.layout.GroupLayout(MainOfJScrollPanel);
+    MainOfJScrollPanel.setLayout(MainOfJScrollPanelLayout);
+    MainOfJScrollPanelLayout.setHorizontalGroup(
+      MainOfJScrollPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+      .add(MainOfJScrollPanelLayout.createSequentialGroup()
         .addContainerGap()
-        .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+        .add(MainOfJScrollPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
           .add(jPanel_Info, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
           .add(jPanel_GdI, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
           .add(jPanel_GdM, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
           .add(jPanel_Prog, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-        .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+        .add(MainOfJScrollPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
           .add(jPanel_CM, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
           .add(jPanel_PI, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
           .add(jPanel_WP, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
           .add(jPanel_BA, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-        .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING, false)
+        .add(MainOfJScrollPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING, false)
           .add(jPanel_BsN, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
           .add(jPanel_Mat, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
           .add(jPanel_BWL, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
           .add(jPanel_Note, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
         .addContainerGap(45, Short.MAX_VALUE))
     );
-    jPanel1Layout.setVerticalGroup(
-      jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-      .add(jPanel1Layout.createSequentialGroup()
+    MainOfJScrollPanelLayout.setVerticalGroup(
+      MainOfJScrollPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+      .add(MainOfJScrollPanelLayout.createSequentialGroup()
         .add(28, 28, 28)
-        .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.TRAILING, false)
+        .add(MainOfJScrollPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.TRAILING, false)
           .add(jPanel_Info, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
           .add(jPanel_Note, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
           .add(jPanel_BA, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-        .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+        .add(MainOfJScrollPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
           .add(jPanel_BWL, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
           .add(org.jdesktop.layout.GroupLayout.TRAILING, jPanel_WP, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
           .add(jPanel_GdI, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-        .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+        .add(MainOfJScrollPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
           .add(jPanel_PI, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
           .add(jPanel_GdM, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
           .add(jPanel_Mat, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
         .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-        .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.TRAILING)
+        .add(MainOfJScrollPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.TRAILING)
           .add(jPanel_BsN, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
           .add(jPanel_CM, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
           .add(jPanel_Prog, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
         .addContainerGap(35, Short.MAX_VALUE))
     );
 
-    jScrollPane1.setViewportView(jPanel1);
+    MainjScrollPane.setViewportView(MainOfJScrollPanel);
 
     org.jdesktop.layout.GroupLayout mainPanelLayout = new org.jdesktop.layout.GroupLayout(mainPanel);
     mainPanel.setLayout(mainPanelLayout);
     mainPanelLayout.setHorizontalGroup(
       mainPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-      .add(jScrollPane1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 1230, Short.MAX_VALUE)
+      .add(MainjScrollPane, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 1230, Short.MAX_VALUE)
     );
     mainPanelLayout.setVerticalGroup(
       mainPanelLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-      .add(jScrollPane1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 706, Short.MAX_VALUE)
+      .add(MainjScrollPane, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 706, Short.MAX_VALUE)
     );
 
     menuBar.setName("menuBar"); // NOI18N
@@ -1537,6 +1537,8 @@ public class NotenRechnerView extends FrameView {
     }
 
   // Variables declaration - do not modify//GEN-BEGIN:variables
+  private javax.swing.JPanel MainOfJScrollPanel;
+  private javax.swing.JScrollPane MainjScrollPane;
   private javax.swing.JComboBox jComboBox1;
   private javax.swing.JComboBox jComboBox2;
   private javax.swing.JComboBox jComboBox3;
@@ -1628,7 +1630,6 @@ public class NotenRechnerView extends FrameView {
   private javax.swing.JLabel jLabel_Prog_Val;
   private javax.swing.JLabel jLabel_WP_Label;
   private javax.swing.JLabel jLabel_WP_Val;
-  private javax.swing.JPanel jPanel1;
   private javax.swing.JPanel jPanel_BA;
   private javax.swing.JPanel jPanel_BWL;
   private javax.swing.JPanel jPanel_BsN;
@@ -1641,7 +1642,6 @@ public class NotenRechnerView extends FrameView {
   private javax.swing.JPanel jPanel_PI;
   private javax.swing.JPanel jPanel_Prog;
   private javax.swing.JPanel jPanel_WP;
-  private javax.swing.JScrollPane jScrollPane1;
   private javax.swing.JPanel mainPanel;
   private javax.swing.JMenuBar menuBar;
   private javax.swing.JProgressBar progressBar;
