@@ -2,9 +2,12 @@ Einfaches Tool zum Ausrechnen seiner Abschlussnote.
 
 Release Notes:
 
+<<<<<<< HEAD
 -- 1.3.1 -- 
 BugFix
 
+=======
+>>>>>>> origin/master
 -- 1.3 --
 Erweiterung der Eingabemöglichkeiten zum Kolloquium
 MZI Logo
