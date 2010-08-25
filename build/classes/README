@@ -1,0 +1,4 @@
+Einfaches Tool zum Ausrechnen seiner Abschlussnote.
+
+Diese Version ändert das Runden von Noten.
+Statt mathematischer Rundung, werden Kommastellen abgeschnitten.
