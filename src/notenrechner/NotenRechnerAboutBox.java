@@ -34,7 +34,7 @@ public class NotenRechnerAboutBox extends javax.swing.JDialog {
         javax.swing.JLabel appVendorLabel = new javax.swing.JLabel();
         javax.swing.JLabel homepageLabel = new javax.swing.JLabel();
         javax.swing.JLabel appHomepageLabel = new javax.swing.JLabel();
-        appDescLabel = new javax.swing.JLabel();
+        javax.swing.JLabel appDescLabel = new javax.swing.JLabel();
         javax.swing.JLabel imageLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -132,7 +132,6 @@ public class NotenRechnerAboutBox extends javax.swing.JDialog {
     }// </editor-fold>//GEN-END:initComponents
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel appDescLabel;
     private javax.swing.JButton closeButton;
     // End of variables declaration//GEN-END:variables
     
